@@ -151,3 +151,34 @@ import time
 #
 #
 # ifPalindrome(n)
+
+# arr = [1, 2, 3, 43, 1, 1]
+#
+# hash_arr = {}
+# for i in arr:
+#     if i in hash_arr:
+#         hash_arr[i] += 1
+#     else:
+#         hash_arr[i] = 1
+
+# arr = "abcdeaee"
+# hash_arr = {}
+# for i in arr:
+#     if i in hash_arr:
+#         hash_arr[i] += 1
+#     else:
+#         hash_arr[i] = 1
+#
+# print(hash_arr)
+
+# arr = [11, 2, 3, 43, 11, 11, 43, 2, 3, 2, 43, 2, 3, 3, 2, 3, 2, 43]
+# hash_arr = {}
+# for i in arr:
+#     if i in hash_arr:
+#         hash_arr[i] += 1
+#     else:
+#         hash_arr[i] = 1
+# print(hash_arr)
+#
+# print(max(hash_arr, key=hash_arr.get))
+# print(min(hash_arr, key=hash_arr.get))
