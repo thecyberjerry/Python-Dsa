@@ -182,3 +182,20 @@ import time
 #
 # print(max(hash_arr, key=hash_arr.get))
 # print(min(hash_arr, key=hash_arr.get))
+
+# -----------------------------
+# Selection sort
+# -----------------------------
+
+# arr = [74, 25, 53, 2, 96, 49, 82, 57, 11, 39, 80, 60, 18, 43, 33, 77, 91, 61, 67, 5, 12, 88, 44, 34, 27, 13]
+# n = 0
+# while n < len(arr):
+#     minimum = arr[n]  # Minimum value of array , initially first element of  array
+#     m = n
+#     for i in range(n, len(arr)):
+#         if minimum > arr[i]:
+#             minimum = arr[i]
+#             m = i  # index number of an element which is found to be smaller than minimum
+#     arr[n], arr[m] = minimum, arr[n]
+#     n += 1
+# print(arr)
