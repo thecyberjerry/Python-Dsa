@@ -199,3 +199,32 @@ import time
 #     arr[n], arr[m] = minimum, arr[n]
 #     n += 1
 # print(arr)
+
+"""
+arr = [74, 25, 53, 2, 96, 49]
+25,74
+25,53,74,
+25,53,2,74
+25,53,2,74,96
+25,53,2,74,49,96
+"""
+# -----------------------------
+# Bubble sort
+# -----------------------------
+# arr = [74, 25, 53, 2, 96, 49, 82, 57, 11, 39, 80, 60, 18, 43, 33, 77, 91, 61, 67, 5, 12, 88, 44, 34, 27, 13]
+#
+# n = 0
+#
+# # Run loop till the both pointers do not extend the arr index and p1 should not exceed the arr of length -1
+# while n < len(arr) - n:
+#     for i in range(len(arr)):
+#         p1 = 0  # initialize both the pointers p1 and p2 with p1 initial index and p2 intial index + 1
+#         p2 = 0  # initialize both the pointers p1 and p2 with p1 initial index and p2 intial index + 1
+#         if i + 1 < len(arr):
+#             p2 = i + 1
+#         if i < len(arr) - 1:
+#             p1 = i
+#         if arr[p1] > arr[p2]:
+#             arr[p1], arr[p2] = arr[p2], arr[p1]
+#     n += 1
+# print(arr)
